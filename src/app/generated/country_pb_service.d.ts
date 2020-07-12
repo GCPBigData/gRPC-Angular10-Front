@@ -1,8 +1,8 @@
-// package: 
+// package:
 // file: src/app/protos/country.proto
 
-import * as src_app_protos_country_pb from "../generated/country_pb";
-import {grpc} from "@improbable-eng/grpc-web";
+import * as src_app_protos_country_pb from '../generated/country_pb';
+import {grpc} from '@improbable-eng/grpc-web';
 
 type CountryServiceGetAll = {
   readonly methodName: string;
